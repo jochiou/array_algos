@@ -9,7 +9,7 @@ for(var index = 0; index < arr.length; index++){
 
 
 // question 2
-var arr = [10,3,6,9,4,13]
+arr = [10,3,6,9,4,13]
 //
 for(var index = 0; index < arr.length; index++){
 	var num = arr[index];
@@ -23,7 +23,7 @@ console.log(arr);
 
 
 // question 3
-var arr = [8,6,7,5,3,0,9];
+arr = [8,6,7,5,3,0,9];
 //var arr = [1,2,3,4,5,6,7,8];
 //var arr = [1];
 //var arr = [];
@@ -34,3 +34,13 @@ for(var index = 0; index < arr.length/2; index++){
 	arr[arrLastIndex - index] = temp;
 }
 console.log(arr);
+
+// question 4
+arr [8,6,7,5,3,0,9];
+
+var newArr = [];
+for(var index = arr.length -1; index >= 0; index --){
+	newArr.push(arr[index]);
+}
+console.log(newArr);
+
